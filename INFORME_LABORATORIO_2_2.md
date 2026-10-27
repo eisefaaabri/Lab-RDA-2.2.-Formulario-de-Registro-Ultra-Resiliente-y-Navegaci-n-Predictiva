@@ -372,7 +372,7 @@ fun ResilientFormScreen(viewModel: FormViewModel, modifier: Modifier = Modifier)
             onValueChange = { viewModel.updateEmail(it) },
             label = { Text("Correo Electrónico (Persistencia ante LMK)") },
             leadingIcon = { Icon(Icons.Default.Email, contentDescription = "Icono Correo") },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.EmailAddress),
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
             singleLine = true,
             modifier = Modifier.fillMaxWidth()
         )
@@ -732,7 +732,7 @@ fun ResilientFormScreen(viewModel: FormViewModel, modifier: Modifier = Modifier)
             onValueChange = { viewModel.updateEmail(it) },
             label = { Text("Correo Electrónico (Persistencia ante LMK)") },
             leadingIcon = { Icon(Icons.Default.Email, contentDescription = "Icono Correo") },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.EmailAddress),
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
             singleLine = true,
             modifier = Modifier.fillMaxWidth()
         )

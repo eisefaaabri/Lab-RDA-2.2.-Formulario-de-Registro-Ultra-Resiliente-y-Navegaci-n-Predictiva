@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+.kotlin/
+hs_err_*.log

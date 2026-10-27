@@ -160,7 +160,7 @@ fun ResilientFormScreen(viewModel: FormViewModel, modifier: Modifier = Modifier)
             onValueChange = { viewModel.updateEmail(it) },
             label = { Text("Email (Persiste al rotar/muerte proceso)") },
             leadingIcon = { Icon(Icons.Default.Email, contentDescription = "Icono Email") },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.EmailAddress),
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
             singleLine = true,
             modifier = Modifier.fillMaxWidth()
         )
